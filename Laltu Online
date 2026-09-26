@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Laltu Study Centre</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f7fb;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+      color: white;
+      text-align: center;
+      padding: 45px 20px;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 17px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 25px 15px;
+    }
+
+    .about {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .about h2 {
+      color: #2563eb;
+      margin-bottom: 12px;
+    }
+
+    .social {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 25px;
+    }
+
+    .social a {
+      text-decoration: none;
+      color: white;
+      padding: 18px;
+      border-radius: 12px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .social a:hover {
+      transform: translateY(-4px);
+      opacity: 0.9;
+    }
+
+    .youtube {
+      background: #ff0000;
+    }
+
+    .instagram {
+      background: #e1306c;
+    }
+
+    .telegram {
+      background: #229ed9;
+    }
+
+    .section {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      margin-top: 25px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .section h2 {
+      color: #7c3aed;
+      margin-bottom: 15px;
+    }
+
+    .section ul {
+      padding-left: 25px;
+      line-height: 2;
+    }
+
+    footer {
+      margin-top: 35px;
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+    }
+
+    footer p {
+      margin: 6px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>📚 Laltu Study Centre</h1>
+    <p>शिक्षा • ज्ञान • सफलता</p>
+  </header>
+
+  <div class="container">
+
+    <div class="about">
+      <h2>हमारे बारे में</h2>
+
+      <p>
+        Laltu Study Centre में विद्यार्थियों के लिए
+        शिक्षा, सामान्य ज्ञान, प्रतियोगी परीक्षाओं और
+        उपयोगी अध्ययन सामग्री से संबंधित जानकारी उपलब्ध कराई जाती है।
+      </p>
+
+      <div class="social">
+
+        <a
+          class="youtube"
+          href="https://www.youtube.com/@LaltuStudyCentre"
+          target="_blank">
+          ▶ YouTube
+        </a>
+
+        <a
+          class="instagram"
+          href="https://www.instagram.com/laltustudycentre/"
+          target="_blank">
+          📷 Instagram
+        </a>
+
+        <a
+          class="telegram"
+          href="https://t.me/laltustudy"
+          target="_blank">
+          ✈️ Telegram
+        </a>
+
+      </div>
+    </div>
+
+
+    <div class="section">
+      <h2>📖 हमारी सेवाएँ</h2>
+
+      <ul>
+        <li>📚 प्रतियोगी परीक्षा की तैयारी</li>
+        <li>📝 महत्वपूर्ण नोट्स और अध्ययन सामग्री</li>
+        <li>🎓 विद्यार्थियों के लिए शैक्षणिक जानकारी</li>
+        <li>💡 सामान्य ज्ञान और करंट अफेयर्स</li>
+        <li>📢 परीक्षा एवं शिक्षा से संबंधित अपडेट</li>
+      </ul>
+    </div>
+
+
+    <div class="section">
+      <h2>🎯 हमारा उद्देश्य</h2>
+
+      <p>
+        हमारा उद्देश्य विद्यार्थियों तक सरल भाषा में
+        उपयोगी और गुणवत्तापूर्ण शैक्षणिक जानकारी पहुँचाना है।
+      </p>
+    </div>
+
+  </div>
+
+
+  <footer>
+    <p>© 2026 Laltu Study Centre</p>
+    <p>सभी अधिकार सुरक्षित</p>
+  </footer>
+
+</body>
+</html>
